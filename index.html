@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Happy Birthday!</title>
+<style>
+  body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f0f0f0;
+    font-family: 'Arial', sans-serif;
+  }
+  .birthday-message {
+    font-size: 3em;
+    font-weight: bold;
+    color: #e63946;
+    animation: bounce 2s infinite;
+  }
+  @keyframes bounce {
+    0%, 100% {
+      transform: translateY(0);
+    }
+    50% {
+      transform: translateY(-15px);
+    }
+  }
+</style>
+</head>
+<body>
+  <div class="birthday-message">Happy Birthday!</div>
+</body>
+</html>
